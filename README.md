@@ -3,5 +3,7 @@ AI assignment 3
 
 
 conda install -c anaconda gensim
+</br>
 conda install -c conda-forge gensimconda install -c anaconda smart_open
+</br>
 conda install -c conda-forge python-levenshtein
