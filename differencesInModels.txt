@@ -1,0 +1,23 @@
+ 
+
+a) Different Corpora but same embedding size
+
+glove-wiki-gigaword-100: Pre-trained vectors based on Wikipedia 2014 + Gigaword, 5.6B tokens, 400K vocab. 
+
+Vector size is 100. Accuracy is 0.8125
+
+glove-twitter-100: Pre-trained vectors based on  2B tweets, 27B tokens, 1.2M vocab.
+
+Vector size is 100. Accuracy is 0.5
+
+Even though they have the same number of parameters to judge the context of a word, the glove-wiki-gigaword-100 is based on Wikipedia with 400 unique words, whereas glove-twitter-100 is based on twitter with 1.2 million unique words. Having a richer vocabulary does not necessarily mean a higher accuracy in this scenario as the actual content of the corpus matters. In this case, tweets are sentences anyone can write and it does not necessarily have to make sense, it is possible to write any combination of words in a tweet. However, in Wikipedia the words are not as randomly put together as there are editors that proofread articles so that they are logical and understandable. This means the sentences are more aligned with the correct use of English as opposed to a Tweet that does not have to be grammatically and context correct. 
+
+b) Same corpus different embedding size: 
+
+"Pre-trained vectors based on Wikipedia 2014 + Gigaword, 5.6B tokens, 400K vocab. 
+
+glove-wiki-gigaword-50: Vector size is 50. Accuracy is 0.7125
+
+glove-wiki-gigaword-300: Vector size is 300. Accuracy is 0.8875
+
+Reason: Having a larger vector embedding size makes it possible to have more accuracy determining the context of a word. In this scenario, there are more parameters to determine the context of a word, as a result it makes it more likely to be more specific on the definition of a word so it leads to higher accuracy even if it learned from the same corpus.
