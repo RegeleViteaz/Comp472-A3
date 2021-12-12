@@ -1,1 +1,6 @@
-word2vec-google-news-300,3000000,70,79,0.8860759493670886
+model,Vocab Size,correc label,answered without guessing,accuracy
+word2vec-google-news-300,3000000,70,79,0.8974358974358975
+glove-twitter-50-details,1193514,36,78,0.46153846153846156
+glove-wiki-gigaword-50-details,400000,57,80,0.7307692307692307
+glove-twitter-25-details,1193514,36,78,0.46153846153846156
+glove-twitter-200-details,1193514,44,78,0.5641025641025641
