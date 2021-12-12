@@ -1,7 +1,12 @@
-# Comp472-A3
-AI assignment 3
+# [NLP-Project](https://github.com/RegeleViteaz/Comp472-A3)
+
+## Mirror AI
+- AmirHossein Hadinezhad, @Amir-h055
+-  Gabriel Alejandro Martinica Ardon @Gabriel Martinica 
+- Andrei Serban, @RegeleViteaz
 
 
+## Dependencies
 conda install -c anaconda gensim
 </br>
 conda install -c conda-forge gensim
