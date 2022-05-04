@@ -1,10 +1,10 @@
 # [NLP-Project](https://github.com/RegeleViteaz/Comp472-A3)
 
 ## Mirror AI
-- AmirHossein Hadinezhad, @Amir-h055
--  Gabriel Alejandro Martinica Ardon @Gabriel Martinica 
-- Andrei Serban, @RegeleViteaz
 
+P1: Naive-Bayes, Decision-Tree, Perceptron, Multilayer Neural Network.
+P2: Tic Tac Toe Adversarial Search: Minimax & Alpha-Beta Pruning Heuristics.
+P3: NLP
 
 ## Dependencies
 conda install -c anaconda gensim
