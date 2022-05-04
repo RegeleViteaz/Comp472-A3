@@ -3,8 +3,11 @@
 ## Mirror AI
 
 P1: Naive-Bayes, Decision-Tree, Perceptron, Multilayer Neural Network.
+</br>
 P2: Tic Tac Toe Adversarial Search: Minimax & Alpha-Beta Pruning Heuristics.
+</br>
 P3: NLP
+</br>
 
 ## Dependencies
 conda install -c anaconda gensim
